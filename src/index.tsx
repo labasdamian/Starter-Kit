@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom'
 const App = () => {
   return (
     <div>
-      <p>Hello TSX</p>
+      <p>Hello</p>
     </div>
-  );
-};
+  )
+}
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'))

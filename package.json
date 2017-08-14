@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "lint": "tslint --project tsconfig.json"
+  },
   "dependencies": {
     "@types/react": "^16.0.2",
     "@types/react-dom": "^15.5.2",
@@ -14,11 +18,10 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "ts-loader": "^2.3.2",
+    "tslint": "^5.6.0",
+    "tslint-react": "^3.2.0",
     "typescript": "^2.4.2",
     "webpack": "^3.5.4",
     "webpack-dev-server": "^2.7.1"
-  },
-  "scripts": {
-    "start": "webpack-dev-server"
   }
 }
