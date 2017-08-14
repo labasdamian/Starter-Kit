@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { Title } from './index.s'
 
 const App = () => {
   return (
     <div>
-      <p>Hello</p>
+      <Title>Hello</Title>
     </div>
   )
 }
